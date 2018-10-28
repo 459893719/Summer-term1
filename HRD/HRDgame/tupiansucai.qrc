@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../../HRDgamexin/HRDgame/image/bg1.jpg</file>
+        <file>../../HRDgamexin/HRDgame/image/chessboard.jpg</file>
+        <file>../../HRDgamexin/HRDgame/image/timg (1).jpg</file>
+        <file>../../HRDgamexin/HRDgame/image/timg (3).jpg</file>
+        <file>../../HRDgamexin/HRDgame/image/timg.jpg</file>
+        <file>../../HRDgamexin/HRDgame/image/曹操.png</file>
+        <file>../../HRDgamexin/HRDgame/image/关羽.png</file>
+        <file>../../HRDgamexin/HRDgame/image/横边框文理.png</file>
+        <file>../../HRDgamexin/HRDgame/image/黄忠横.png</file>
+        <file>../../HRDgamexin/HRDgame/image/黄忠竖.png</file>
+        <file>../../HRDgamexin/HRDgame/image/空格.png</file>
+        <file>../../HRDgamexin/HRDgame/image/马超横.png</file>
+        <file>../../HRDgamexin/HRDgame/image/马超竖.png</file>
+        <file>../../HRDgamexin/HRDgame/image/竖边框文理.png</file>
+        <file>../../HRDgamexin/HRDgame/image/提示框文理.png</file>
+        <file>../../HRDgamexin/HRDgame/image/张飞横.png</file>
+        <file>../../HRDgamexin/HRDgame/image/张飞竖.png</file>
+        <file>../../HRDgamexin/HRDgame/image/赵云横.png</file>
+        <file>../../HRDgamexin/HRDgame/image/赵云竖.png</file>
+        <file>../../HRDgamexin/HRDgame/image/卒.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/bg1.jpg</file>
+        <file>image/chessboard.jpg</file>
+        <file>image/timg (1).jpg</file>
+        <file>image/timg (3).jpg</file>
+        <file>image/timg.jpg</file>
+        <file>image/横边框文理.png</file>
+        <file>image/空格.png</file>
+        <file>image/竖边框文理.png</file>
+        <file>image/提示框文理.png</file>
+        <file>image/help.jpg</file>
+        <file>image/btn.jpg</file>
+        <file>image/rank.jpg</file>
+        <file>image/forrank.jpg</file>
+        <file>image/soundoff.jpg</file>
+        <file>image/soundon.jpg</file>
+    </qresource>
+    <qresource prefix="/pic">
+        <file>image/help.jpg</file>
+    </qresource>
+</RCC>

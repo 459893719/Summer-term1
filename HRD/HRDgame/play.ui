@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>play</class>
+ <widget class="QMainWindow" name="play">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>500</width>
+    <height>750</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>500</width>
+    <height>750</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>华容道</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>660</y>
+      <width>471</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QPushButton" name="btn_reset">
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/image/btn.jpg);
+font: 18pt &quot;华文新魏&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>重置棋盘</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_back">
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/image/btn.jpg);
+font: 18pt &quot;华文新魏&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>返回</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/image/btn.jpg);
+font: 18pt &quot;华文新魏&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>排行</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_autoplay">
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/image/btn.jpg);
+font: 18pt &quot;华文新魏&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>解法演示</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>481</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2" columnstretch="1,1">
+     <item row="0" column="0">
+      <widget class="QLabel" name="lab_levelName">
+       <property name="styleSheet">
+        <string notr="true">border-image:ul();
+font: 36pt &quot;华文新魏&quot;;
+color: rgb(214, 143, 0);</string>
+       </property>
+       <property name="text">
+        <string>横刀立马</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QLabel" name="lab_present">
+         <property name="styleSheet">
+          <string notr="true">border-image: url(:/image/btn.jpg);
+color: rgb(255, 85, 0);
+font: 20pt &quot;华文新魏&quot;;</string>
+         </property>
+         <property name="text">
+          <string>当前步数</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLCDNumber" name="num_present">
+         <property name="styleSheet">
+          <string notr="true">border-image: url(:/image/btn.jpg);</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <item>
+        <widget class="QLabel" name="lab_yourbest">
+         <property name="styleSheet">
+          <string notr="true">border-image: url(:/image/btn.jpg);
+color: rgb(255, 85, 0);
+font: 20pt &quot;华文新魏&quot;;</string>
+         </property>
+         <property name="text">
+          <string>最佳步数</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLCDNumber" name="num_yourbest">
+         <property name="styleSheet">
+          <string notr="true">border-image: url(:/image/btn.jpg);</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="1">
+      <layout class="QHBoxLayout" name="horizontalLayout_7">
+       <item>
+        <widget class="QLabel" name="lab_best">
+         <property name="styleSheet">
+          <string notr="true">border-image: url(:/image/btn.jpg);
+color: rgb(255, 85, 0);
+font: 20pt &quot;华文新魏&quot;;</string>
+         </property>
+         <property name="text">
+          <string>最优解</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLCDNumber" name="num_best">
+         <property name="styleSheet">
+          <string notr="true">border-image: url(:/image/btn.jpg);</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>500</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
